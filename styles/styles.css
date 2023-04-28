@@ -1,0 +1,445 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.headerIndex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.mainIndex{
+    background-image: url(./../img/Tale-Of-Us-2-4.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+  .mainIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .headerIndex h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .mainIndex h2 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .mainIndex p {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .cierreDePaginaIndex {
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+    height: 5vh;
+    background-color: #ffffffcc;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  @media only screen and (max-width: 767px) {
+  
+
+    .mainIndex {
+      background-image: url(./../img/img\ celu\ 2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      text-align: center;
+    }
+
+
+    .headerIndex {
+      flex-direction: column;
+      padding: 0.5rem;
+    }
+  
+    
+    .mainIndex h2 {
+      font-size: 2.5rem;
+      margin: 1rem 0;
+      text-align: center;
+    }
+  
+    .mainIndex p {
+      font-size: 1.5rem;
+      margin: 0.5rem 0;
+      text-align: center;
+    }
+  
+    .cierreDePaginaIndex {
+      height: auto;
+      padding: 0.5rem;
+    }
+  }
+
+  .bg-light{
+    width: 100%;
+  }
+
+  .navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .navbar-brand h1{
+    font-weight: 600;
+  
+  }
+
+  .nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .navbar{
+    letter-spacing: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+
+
+
+  .mainBiografia{
+    background-image: url(./../img/Tale-Of-Us-2-4.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.headerBiografia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+    
+   .headerBiografia nav ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .headerBiografia nav li {
+    margin: 0 1rem;
+  }
+
+  .headerBiografia nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .mainBiografia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .cierreDePaginaBiografia {
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+  .headerBiografia h1{
+font-size: 48px;
+
+  }
+
+
+  @media screen and (max-width: 767px) {
+
+    
+  
+    .bodyBiografia {
+      background-image: url(./../img/img\ celu\ 2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      
+    }
+  
+  
+  
+    .headerBiografia {
+      flex-direction: column;
+      padding: 0.5rem;
+    }
+
+
+    .headerBiografia ul{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .headerBiografia li{
+      margin: 0.5rem 0;
+    }
+
+  
+  
+    .mainBiografia {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      padding: 1rem;
+    }
+  
+    .mainBiografia h1 {
+      font-size: 2.5re,;
+      margin: 1rem 0;
+      text-align: center;
+
+    }
+  
+    .mainBiografia p {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+  
+    
+  
+    .cierreDePaginaBiografia {
+      height: auto;
+      padding: 0.5rem;
+      text-align: center;
+    }
+  
+  
+  }
+
+
+
+
+
+  .bodyDiscografia{
+    background-image: url(./../img/Tale-Of-Us-2-4.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.headerDiscografia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .headerDiscografia nav ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .headerDiscografia nav li {
+    margin: 0 1rem;
+  }
+
+  .headerDiscografia nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .cierreDePaginaDiscografia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .headerDiscografia h1{
+    font-size: 48px;
+  }
+
+
+
+
+  .bodyGira{
+    background-image: url(./../img/Tale-Of-Us-2-4.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.headerGira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .headerGira nav ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .headerGira nav li {
+    margin: 0 1rem;
+  }
+
+  .headerGira nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .cierreDePaginaGira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: auto;
+  }
+
+
+  .headerGira h1{
+    font-size: 48px;
+  }
+
+  .fechasGira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tituloGira h1{
+    text-align: center;
+  }
+
+
+
+  .bodyContacto{
+    background-image: url(./../img/Tale-Of-Us-2-4.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+      }
+
+
+
+.headerContacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .headerContacto nav ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .headerContacto nav li {
+    margin: 0 1rem;
+  }
+
+  .headerContacto nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .cierreDePaginaContacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: auto;
+  }
+
+
+  .headerContacto h1{
+    font-size: 48px;
+  }
+
+
+
+  .contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    }
+  
