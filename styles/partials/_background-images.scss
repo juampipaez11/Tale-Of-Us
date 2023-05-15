@@ -1,0 +1,13 @@
+$background-images: (
+  index: 'path/to/index-image.jpg',
+  biografia: 'path/to/biografia-image.jpg',
+  discografia: 'path/to/discografia-image.jpg',
+  gira: 'path/to/gira-image.jpg',
+  contacto: 'path/to/contacto-image.jpg'
+);
+
+@each $section, $image in $background-images {
+  .main#{$section} {
+    background-image: url(#{$image});
+  }
+}

@@ -1,0 +1,71 @@
+.mainIndex {
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: $font-family;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    h2 {
+      font-size: 3rem;
+      margin: 1rem 0;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 2rem;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  .mainBiografia {
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: $font-family;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    h1 {
+      font-size: 48px;
+    }
+  }
+  
+  .MainDiscografia {
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: $font-family;
+  }
+
+  .fechasGira {
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: $font-family;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
+    .contactoMain {
+        background-image: $background-image;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: auto;
+        font-family: $font-family;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        }
