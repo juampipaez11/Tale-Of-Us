@@ -74,7 +74,7 @@
   
 
     .mainIndex {
-      background-image: url(./../img/imagen\ celular.jpg);
+      background-image: url(./../img/imagen\celular.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -219,7 +219,7 @@ font-size: 48px;
     
   
     .mainBiografia {
-      background-image: url(./../img/imagen\ celular.jpg);
+      background-image: url(./../img/imagen\celular.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -296,7 +296,7 @@ font-size: 48px;
   @media screen and (max-width: 800px) {
 
     .MainDiscografia{
-      background-image: url(./../img/imagen\ celular.jpg);
+      background-image: url(./../img/imagen\celular.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -368,7 +368,7 @@ font-size: 48px;
   @media screen and (max-width: 800px){
 
     .fechasGira{
-      background-image: url(./../img/imagen\ celular.jpg);
+      background-image: url(./../img/imagen\celular.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: auto;
@@ -455,7 +455,7 @@ font-size: 48px;
     @media screen and (max-width: 800px){
 
       .contactoMain{
-        background-image: url(./../img/imagen\ celular.jpg);
+        background-image: url(./../img/imagen\celular.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: auto;
