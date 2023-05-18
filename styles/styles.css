@@ -135,6 +135,7 @@
 
     .navbar-nav{
       background-color: gray;
+      
     }
 
     }
@@ -188,6 +189,7 @@
 
 .navbar-nav{
   z-index: 99;
+
 }
 
 
