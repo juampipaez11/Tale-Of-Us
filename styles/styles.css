@@ -62,7 +62,7 @@
   
 
     .mainIndex {
-      background-image: url();
+      background-image: url(./../img/imagen\ celu\ 2.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -106,7 +106,7 @@
   
     .nav-link{
       font-family: Arial, Helvetica, sans-serif;
-      
+
     }
   
     .navbar{
@@ -133,7 +133,12 @@
   
     }
 
+    .navbar-nav{
+      background-color: gray;
     }
+
+    }
+    
 
   .bg-light{
     width: 100%;
@@ -181,6 +186,10 @@
 }
 
 
+.navbar-nav{
+  z-index: 99;
+}
+
 
 
   .mainBiografia{
@@ -221,7 +230,7 @@ font-size: 48px;
     
   
     .mainBiografia {
-      background-image: url();
+      background-image: url(./../img/imagen\ celu\ 3.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -267,6 +276,9 @@ font-size: 48px;
       text-align: center;
     }
   
+    .mainBiografia p{
+      color: black;
+    }
   
   }
 
@@ -298,7 +310,7 @@ font-size: 48px;
   @media screen and (max-width: 800px) {
 
     .MainDiscografia{
-      background-image: url();
+      background-image: url(./../img/imagen\ celu\ 3.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -370,7 +382,7 @@ font-size: 48px;
   @media screen and (max-width: 800px){
 
     .fechasGira{
-      background-image: url();
+      background-image: url(./../img/imagen\ celu\ 3.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: auto;
@@ -457,7 +469,7 @@ font-size: 48px;
     @media screen and (max-width: 800px){
 
       .contactoMain{
-        background-image: url();
+        background-image: url(./../img/imagen\ celu\ 3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: auto;
